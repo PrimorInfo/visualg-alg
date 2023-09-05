@@ -1,0 +1,19 @@
+Algoritmo "empréstimo"
+
+Var
+   empr1, empr, parcelas, qtdeParc, juros: real
+
+
+Inicio
+     Escreva("Qual é o valor desejado? R$ ")
+     Leia(empr1)
+     Escreva("Em quantas parcelas? ")
+     Leia(qtdeParc)
+     juros <- empr1*20/100
+     empr <- empr1 + juros
+     parcelas <- empr/qtdeParc
+     Escreval("valor do empéstimo + juros de 20%: R$ ", empr:5:2)
+     Escreva("Qtde de parcelas: ", qtdeParc,"X de: R$ ", parcelas:5:2)
+
+
+Fimalgoritmo

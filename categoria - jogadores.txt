@@ -1,0 +1,29 @@
+Algoritmo "Classificação de atletas no clube"
+
+Var
+    nome, categoria: caracter
+    idade: inteiro
+
+Inicio
+   Escreval(" *** Classificação dos jogadores por idade *** ")
+   Escreval("")
+   Escreva("Digite nome do atleta: ")
+   Leia(nome)
+   Escreva("Digite idade do atleta: ")
+   Leia(idade)
+   Escolha(idade)
+   caso 5, 6, 7, 8, 9, 10
+   categoria <- "Infnatil"
+   caso 11, 12, 13, 14, 15
+   categoria <- "Juvenil"
+   caso 16, 17, 18, 19, 20
+   categoria <- "Júnior"
+   caso 21, 22, 23, 24, 25
+   categoria <- "Profissional"
+   outroCaso
+   categoria <- "Inválido"
+   fimescolha
+   Escreva("Categoria = ", categoria)
+
+
+Fimalgoritmo

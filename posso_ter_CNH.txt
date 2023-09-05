@@ -1,0 +1,27 @@
+Algoritmo "Posso ter CNH"
+
+Var
+     hoje, nasc, idade: real
+
+Inicio
+      Escreval("------------------------")
+      Escreval("DEPARTAMENTO DE TRÂNSITO")
+      Escreval("------------------------")
+      Escreval("                  ")
+      Escreva("Ano atual (XXXX): ")
+      Leia(hoje)
+      EScreva("Ano de nasc. (XXXX): ")
+      Leia(nasc)
+      Escreval("                  ")
+      Escreval("------STATUS------------")
+      Escreval("                ")
+      idade <- hoje - nasc
+      se idade >= 18 entao
+         Escreval("Idade: ", idade," anos")
+         Escreval("Apto para tirar CNH")
+      senao
+         Escreval("Idade: ", idade," anos")
+         Escreval("Inapto para tirar CNH")
+      fimSe
+
+Fimalgoritmo
