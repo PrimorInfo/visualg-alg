@@ -1,0 +1,32 @@
+Algoritmo "MH 3Alunos/3ProvasCada"
+
+ // o cálculo da MH: Sejam a e b dois números reais positivos.
+ //A média harmônica MH de a e b é o inverso da média aritmética
+ //dos inversos desses números: Ou seja:  dividimos a quantidade
+ //de elementos pela soma do inverso de cada um dos elementos do conjunto.
+ // MH = 2/(1/a + 1/b)
+
+Var
+   a, b, c, MH, i: real
+   nome: caractere
+
+Inicio
+
+    i <- 1
+    Repita
+          escreva("Nome do aluno: ")
+          leia(nome)
+          escreval("Entre com as notas das três provas: ")
+          escreva("Digite nota 1: ")
+          leia(a)
+          escreva("Digite nota 2: ")
+          leia(b)
+          escreva("Digite nota 3: ")
+          leia(c)
+          MH <- 3/(1/a + 1/b + 1/c)
+          escreval("A MH do aluno ", nome, " é: ", MH:5:2)
+          escreval("-------------------------------------------")
+    	  i <- i + 1
+    ate i > 3
+
+ Fimalgoritmo

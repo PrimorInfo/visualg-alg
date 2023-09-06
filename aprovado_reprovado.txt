@@ -1,0 +1,33 @@
+Algoritmo "Aprovado ou Reprovado"
+
+Var
+     n1, n2, media: real
+
+Inicio
+      EscrevaL("--------------------------")
+      EscrevaL("    ESCOLA DA VILA    ")
+      Escreval("--------------------------")
+      Escreval("                     ")
+      Escreva("Primeira nota: ")
+      Leia(n1)
+      Escreva("Segunda nota:  ")
+      Leia(n2)
+      Escreval("                     ")
+      Escreval("--------STATUS------------")
+      Escreval("                     ")
+      media <- (n1 + n2)/2
+      se media >= 7 entao
+         Escreval("Média: ", media:5:2)
+         Escreval("ALUNO APROVADO  ")
+      Escreval("                     ")
+      Escreval("--------------------------")
+      senao
+           Escreval("Média: ", media)
+           Escreval("ALUNO REPROVADO  ")
+      Escreval("                     ")
+      Escreval("--------------------------")
+      fimSe
+      
+
+
+Fimalgoritmo
