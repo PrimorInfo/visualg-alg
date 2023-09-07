@@ -1,0 +1,30 @@
+Algoritmo "ContRegressProgress"
+
+Var
+   i, f, CONT: inteiro
+
+Inicio
+     escreval(" CONTAGEM INTELIGENTE  ")
+     ESCREVAL("----------------------")
+     escreva("Início: ")
+     leia(i)
+     escreva("Fim: ")
+     leia(f)
+     ESCREVAL("----------------------")
+     escrevaL("  C O N T A N D O   ")
+     ESCREVAL("----------------------")
+     se F > I entao
+        cont <- i
+        enquanto (cont <= f) faca
+               escreva(cont, "...")
+               cont <- cont + 1
+        fimenquanto
+     senao
+        cont <- i
+        enquanto (cont >= f) faca
+                 escreva(cont, "...")
+                 cont <- cont -1
+        fimenquanto
+     fimse
+
+Fimalgoritmo
