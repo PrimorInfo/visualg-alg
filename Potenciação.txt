@@ -1,0 +1,30 @@
+Algoritmo "Potenciação"
+// Disciplina   : [Algoritmos e Programação Estruturada]
+// Faculdade   : Anhanguera
+// Autor(a)    : Neusa Irma de Oliveira
+// Data atual  : 09/09/2023
+Var
+     a, b, res: real
+     cont: inteiro
+Inicio
+     escreva(" Digite a base: ")
+     leia(a)
+     escreva(" Digite o expoente: ")
+     leia(b)
+     cont <- 1
+     res <- 1
+     Enquanto cont <= b faca
+          res <- res * a
+          cont <- cont + 1
+     FimEnquanto
+     escreval("--------------------------------------- ")
+     escreval("")
+     escreval(" O resultado da potenciação ", a, " ^", b, " =", res:3:3)
+     escreval("")
+     escreval("---------------------------------------- ")
+     escreval("")
+     escreval(" Usando a função = ", exp(a,b))
+     escreval("")
+     escreval("---------------------------------------- ")
+
+Fimalgoritmo

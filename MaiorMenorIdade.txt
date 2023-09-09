@@ -1,0 +1,30 @@
+Algoritmo "MaiorMenorIdade"
+// Disciplina   : [Algoritmos e Programação Estruturada]
+// Faculdade   : Anhanguera
+// Autor(a)    : Neusa Irma de Oliveira
+// Data atual  : 09/09/2023
+Var
+    idade: inteiro
+
+Inicio
+     escreva(" Informe sua idade: ")
+     leia(idade)
+     
+     Se (idade >= 18) entao
+        escreval("")
+        escreval("=========================")
+        escreval(" Idade informada: ", idade)
+        escreval(" ==> MAIOR de idade. ")
+        escreva("==========================")
+        escreval("")
+     Senao
+        escreval("")
+        escreval("=========================")
+        escreval(" Idade informada: ", idade)
+        escreval(" ==> MENOR de idade. ")
+        escreva("==========================")
+        escreval("")
+     FimSe
+
+
+Fimalgoritmo
